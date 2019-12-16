@@ -1,0 +1,13 @@
+.shadow-cljs
+node_modules
+out
+
+.projectile
+.dir-locals.el
+/.cpcache
+trace.edn
+/classes
+out
+
+# some emacs users accidentally create files named `\`
+\\
