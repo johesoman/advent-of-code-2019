@@ -3,6 +3,7 @@ node_modules
 out
 
 .projectile
+.nrepl-port
 .dir-locals.el
 /.cpcache
 trace.edn
