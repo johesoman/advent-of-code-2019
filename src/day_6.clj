@@ -32,7 +32,7 @@
                     vs)
             vds (map vector vs ds)]
         (recur (into dists vds)
-               (into visited vs)
+               (conj visited u)
                (into (pop q) vds))))))
 
 ;; ++++++++++++
